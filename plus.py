@@ -14,7 +14,7 @@ input_file
 
 input = input_file.split("\n")
 
-import r
+import re
 
 find = re.findall("\d",input[0])
 
